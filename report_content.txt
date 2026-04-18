@@ -1,0 +1,34 @@
+TITLE:
+Hybrid Intelligent System for Student Performance Prediction using Fuzzy Logic and Neural Networks
+
+ABSTRACT:
+This project presents a hybrid intelligent system that combines fuzzy logic and neural networks to predict student performance level. The system takes Attendance, Assignment Marks, and Test Marks as input variables and classifies performance as Poor, Average, or Good. Fuzzy logic handles uncertainty and linguistic reasoning, while the neural learning mechanism improves the system by tuning parameters from data. MATLAB ANFIS is used for implementation.
+
+OBJECTIVE:
+To design a hybrid fuzzy-neural model that predicts student performance based on academic indicators.
+
+INPUTS:
+1. Attendance
+2. Assignment Marks
+3. Test Marks
+
+OUTPUT:
+Performance Level
+- Poor
+- Average
+- Good
+
+METHODOLOGY:
+The project uses ANFIS, which integrates fuzzy inference with adaptive neural learning. A dataset of student records is used to generate an initial fuzzy inference system. During training, the neural learning algorithm adjusts the membership functions and rule parameters to reduce prediction error.
+
+INTEGRATION OF FUZZY LOGIC AND NEURAL NETWORK:
+Fuzzy logic provides interpretable IF-THEN rules, while neural learning tunes the membership functions and consequent parameters automatically from data. This hybrid approach gives both explainability and adaptability.
+
+RESULT:
+The system successfully predicts student performance levels using the given inputs. It also visualizes training error, fuzzy membership functions, and rule evaluation.
+
+CONCLUSION:
+The hybrid fuzzy-neural system provides a smart and flexible way to predict student performance. It improves upon traditional fixed-rule systems by learning from data.
+
+FUTURE SCOPE:
+The model can be extended by adding behavior score, project marks, and class participation as additional input parameters.
